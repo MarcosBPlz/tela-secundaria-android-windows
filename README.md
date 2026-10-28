@@ -2,6 +2,8 @@
 
 ![Tela Tablet no PC, no tablet e no celular](docs/capa.png)
 
+> Curtiu? [**Apoie o projeto com um Pix ☕**](#-apoie-o-projeto)
+
 Transforma um tablet ou celular Android velho num **painel de mesa** ligado ao seu PC com Windows: relógio, clima, agenda, lista de compras, o que está tocando no PC, uso de CPU/RAM/temperatura e um assistente de voz simples, tudo com fundo animado e visual de vidro.
 
 O PC roda um servidor pequeno em Python. O tablet (ou o próprio navegador do PC) abre o painel pela rede Wi-Fi de casa. Nada vai para a nuvem: lista, agenda e ajustes ficam salvos no seu PC.
@@ -102,6 +104,29 @@ media/               seus fundos — não vão para o Git
 ```
 
 A porta padrão é `47811` (mude com a variável de ambiente `TABLET_PANEL_PORT`).
+
+## ☕ Apoie o projeto
+
+O Tela Tablet é grátis e sempre vai ser. Se ele te ajudou ou você curtiu a ideia, um Pix de qualquer valor ajuda a manter o projeto andando. Valeu demais! 💜
+
+<img src="docs/pix-qrcode.png" alt="QR Code Pix para apoiar o projeto" width="220">
+
+**Chave Pix (aleatória):**
+
+```
+a8016793-391a-4848-b69e-c5bc81a23f15
+```
+
+<details>
+<summary>Pix Copia e Cola</summary>
+
+```
+00020126580014br.gov.bcb.pix0136a8016793-391a-4848-b69e-c5bc81a23f155204000053039865802BR5911TELA TABLET6009SAO PAULO62070503***63040955
+```
+
+</details>
+
+Outra forma de ajudar: deixe uma ⭐ no repositório e mostre para a galera.
 
 ## Licença
 
