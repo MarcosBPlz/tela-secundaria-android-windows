@@ -1,0 +1,31 @@
+# ---- Dados pessoais de cada usuário (criados automaticamente pelo servidor)
+data/*
+!data/.gitkeep
+media/*
+!media/.gitkeep
+
+# ---- Python
+__pycache__/
+*.pyc
+packages/
+
+# ---- Android (compilação e configuração local)
+android/.gradle/
+android/.idea/
+android/build/
+android/app/build/
+android/local.properties
+android/captures/
+*.iml
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# ---- Arquivos temporários e backups
+backup/
+*_copia.txt
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
