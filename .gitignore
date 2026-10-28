@@ -18,6 +18,7 @@ android/local.properties
 android/captures/
 *.iml
 *.apk
+!apk/*.apk
 *.aab
 *.keystore
 *.jks

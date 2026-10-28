@@ -30,13 +30,13 @@ media_monitor = MediaSessionMonitor()
 temperature_monitor = TemperatureMonitor()
 
 default_layout = {
-    "clock": {"x": 4, "y": 6, "w": 42, "h": 18},
-    "weather": {"x": 80, "y": 6, "w": 18, "h": 18},
-    "system": {"x": 4, "y": 29, "w": 47, "h": 24},
-    "music": {"x": 4, "y": 57, "w": 47, "h": 22},
-    "shopping": {"x": 53, "y": 29, "w": 44, "h": 56},
-    "agenda": {"x": 53, "y": 6, "w": 24, "h": 18},
-    "mouse": {"x": 68, "y": 93, "w": 28, "h": 6},
+    "clock": {"x": 4, "y": 6, "w": 40, "h": 20},
+    "weather": {"x": 80, "y": 6, "w": 16, "h": 18},
+    "system": {"x": 4, "y": 34, "w": 46, "h": 15},
+    "music": {"x": 4, "y": 53, "w": 46, "h": 17},
+    "shopping": {"x": 53, "y": 36, "w": 43, "h": 52},
+    "agenda": {"x": 53, "y": 6, "w": 25, "h": 27},
+    "mouse": {"x": 68, "y": 93, "w": 28, "h": 5},
 }
 
 

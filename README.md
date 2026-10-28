@@ -1,5 +1,7 @@
 # Tela Tablet
 
+![Tela Tablet no PC, no tablet e no celular](docs/capa.png)
+
 Transforma um tablet ou celular Android velho num **painel de mesa** ligado ao seu PC com Windows: relógio, clima, agenda, lista de compras, o que está tocando no PC, uso de CPU/RAM/temperatura e um assistente de voz simples, tudo com fundo animado e visual de vidro.
 
 O PC roda um servidor pequeno em Python. O tablet (ou o próprio navegador do PC) abre o painel pela rede Wi-Fi de casa. Nada vai para a nuvem: lista, agenda e ajustes ficam salvos no seu PC.
@@ -17,11 +19,23 @@ O PC roda um servidor pequeno em Python. O tablet (ou o próprio navegador do PC
 - **Fundos** em vídeo, GIF ou imagem.
 - **Ícone na bandeja do Windows**: o servidor roda escondido, sem janela de terminal.
 
+## Telas
+
+| PC (horizontal) | Tablet deitado |
+|---|---|
+| ![Painel no PC](docs/pc.jpg) | ![Painel no tablet na horizontal](docs/tablet-horizontal.png) |
+
+| Tablet em pé | Celular |
+|---|---|
+| <img src="docs/tablet-vertical.png" alt="Painel no tablet na vertical" width="380"> | <img src="docs/celular.png" alt="Painel no celular" width="260"> <img src="docs/celular-fim.png" alt="Painel no celular, rolado até o fim" width="260"> |
+
+No PC você arrasta e redimensiona os quadros; o tablet deitado mostra exatamente o mesmo layout. Em pé, o painel troca sozinho para um layout vertical com rolagem. O fundo é por sua conta: imagem, GIF ou vídeo em loop (nas prints, cada aparelho está com um diferente).
+
 ## Requisitos
 
 - Windows 10 ou 11 com **Python 3.11+** ([python.org](https://www.python.org/downloads/), marque “Add Python to PATH”).
 - Tablet/celular **Android 8+** na mesma rede Wi-Fi do PC.
-- Para compilar o app: **Android Studio**.
+- Para compilar o app (opcional): **Android Studio**.
 
 ## Como usar
 
@@ -39,10 +53,12 @@ Se algo der errado, rode `iniciar.bat` (mostra o terminal com os erros) ou veja 
 
 ### 2. No tablet/celular
 
-1. Abra a pasta `android/` no **Android Studio**.
-2. Menu **Build → Generate App Bundles or APKs → Generate APKs**.
-3. Instale o `app-debug.apk` gerado no aparelho.
-4. Abra o app, cole o endereço do PC e toque em **Conectar**.
+1. Baixe o APK direto no aparelho: [**⬇️ TelaTablet-1.8.apk**](https://github.com/MarcosBPlz/tela-secundaria-android-windows/raw/main/apk/TelaTablet-1.8.apk) (também fica na pasta [`apk/`](apk/)).
+2. Abra o arquivo e instale. Se o Android pedir, permita instalar de "fontes desconhecidas".
+3. Abra o app, cole o endereço do PC e toque em **Conectar**.
+4. Toque no microfone e permita o acesso quando pedir.
+
+> Quer compilar você mesmo? Abra a pasta `android/` no **Android Studio** e use **Build → Generate App Bundles or APKs → Generate APKs**.
 
 Sem instalar nada, também dá para abrir o endereço direto no navegador do tablet (mas a voz funciona melhor no app).
 
